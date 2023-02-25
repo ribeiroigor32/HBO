@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBO</title>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;            
+        }
+        form input {
+            width: 300px;
+            height: 30px;
+            left: 94px;
+            top: 386px; 
+            margin-top: 15px ;
+            margin-bottom: 10px;
+        }
+        img {
+            width: 200px;
+        }
+        input[type="submit"]{
+            width: 50;
+        }
+        #entrar {
+            width: 100px;
+            height: 30px;
+        }
+        #entrarprovedor {
+            width: 200px;
+            height: 30px
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.svg">
+        <h1>Entrar</h1>
+        <h2>Você tem uma conta HBO Max?</h2>
+    </header>
+    <main>
+        <form>
+            <label>E-mail</label>
+            <input type="e-mail" placeholder="exemplo@mail.com"> 
+            <label>Senha</label>
+            <input type="senha" placeholder="*******">  
+            <button id="entrar">Entrar        
+            </button>
+            <p>Você acessa a HBO Max por um provedor de TV,<br>
+            de internet ou celular?</p>  
+            <button id="entrarprovedor">Entrar como provedor</button>
+        </form>
+    </main>
+</body>
+</html>
